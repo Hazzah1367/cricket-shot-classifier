@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "real_image": "data/images/cover_drive/commons_62018204.jpg",
+  "prediction": "Cover Drive",
+  "checks": [
+    "script rendered without exception",
+    "real uploaded-image processing path",
+    "three probabilities sum to one"
+  ],
+  "scope": "AppTest with a mocked uploader; browser file-picker interaction not manually tested."
+}

@@ -1,0 +1,16 @@
+seed: 42
+architecture: resnet18
+image_size: 224
+batch_size: 16
+num_workers: 0
+cpu_threads: 4
+head_epochs: 30
+finetune_epochs: 3
+head_lr: 0.001
+backbone_lr: 0.0001
+weight_decay: 0.0001
+label_smoothing: 0.05
+dropout: 0.2
+patience: 6
+device: auto
+cache_head_views: 2

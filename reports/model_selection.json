@@ -1,0 +1,17 @@
+{
+  "selected_architecture": "resnet18",
+  "checkpoint_path": "artifacts/resnet18/best.pt",
+  "criterion": "Highest validation macro-F1; tie prefers smaller MobileNet. Test scores were not used.",
+  "comparison": {
+    "resnet18": {
+      "validation_macro_f1": 0.6876750700280113,
+      "training_seconds": 687.1315757360003,
+      "checkpoint_path": "artifacts/resnet18/best.pt"
+    },
+    "mobilenet_v3_small": {
+      "validation_macro_f1": 0.6251931075460487,
+      "training_seconds": 305.1703856180002,
+      "checkpoint_path": "artifacts/mobilenet/best.pt"
+    }
+  }
+}

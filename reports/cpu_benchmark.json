@@ -1,0 +1,16 @@
+{
+  "resnet18": {
+    "parameters": 11178051,
+    "median_cpu_forward_ms": 616.9864560006317,
+    "repetitions": 5,
+    "threads": 4,
+    "batch_size": 1
+  },
+  "mobilenet_v3_small": {
+    "parameters": 1520931,
+    "median_cpu_forward_ms": 485.10142899976927,
+    "repetitions": 5,
+    "threads": 4,
+    "batch_size": 1
+  }
+}

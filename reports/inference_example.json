@@ -1,0 +1,12 @@
+{
+  "image": "data/images/cover_drive/commons_62018204.jpg",
+  "result": {
+    "prediction": "cover_drive",
+    "probabilities": {
+      "cover_drive": 0.6305099129676819,
+      "pull_shot": 0.3490908443927765,
+      "sweep_shot": 0.02039920538663864
+    },
+    "note": "Uncalibrated closed-set scores; other shots/non-cricket inputs are unsupported."
+  }
+}

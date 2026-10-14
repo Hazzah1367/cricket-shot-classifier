@@ -1,0 +1,12 @@
+Unit tests: ..........                                                               [100%]
+10 passed in 76.12s (0:01:16)
+
+Ruff lint: passed
+Ruff format: passed
+Publish helper shell syntax: passed
+334 photo files have individual attribution/licence records.
+138 accepted image hashes and source/day/group split boundaries passed.
+
+Real held-out CLI inference: passed
+Streamlit real-image processing via AppTest: passed (mocked uploader; browser picker not tested)
+Confusion matrix and all nine errors: visually inspected

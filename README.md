@@ -153,10 +153,11 @@ and verifies the schema and fixed class mapping.
 
 ## GitHub
 
-Intended repository: `Hazzah1367/cricket-shot-classifier`. The connected integration can write
-files but does not expose repository creation. If the repository has not been created yet,
-create an empty repository at https://github.com/new (private is a sensible MVP default),
-then grant the GitHub connection access. Alternatively, with GitHub CLI installed and signed in:
+Repository: [Hazzah1367/cricket-shot-classifier](https://github.com/Hazzah1367/cricket-shot-classifier).
+The source, licensed images, manifests and reports are committed on `main`. Trained model
+checkpoints are included in the supplied download bundle and are excluded from Git.
+For future local changes, use normal Git commands with your authenticated Git client.
+The GitHub CLI helper also supports publishing a standalone downloaded checkout:
 
 ```bash
 bash scripts/publish_github.sh

@@ -1,0 +1,3 @@
+# Tested MVP environment; package definitions live in pyproject.toml.
+-c constraints.txt
+-e .[app,dev]

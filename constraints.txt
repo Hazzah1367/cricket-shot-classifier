@@ -1,0 +1,13 @@
+# Tested direct dependency versions. Install CPU torch from its official index first.
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.3.5
+Pillow==12.3.0
+scikit-learn==1.8.0
+PyYAML==6.0.3
+requests==2.34.2
+ImageHash==4.3.2
+matplotlib==3.10.8
+streamlit==1.65.0
+pytest==9.1.1
+ruff==0.17.0
